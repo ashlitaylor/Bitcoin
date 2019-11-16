@@ -22,9 +22,10 @@ Objectives:
 This code runs on the Databricks platform using a community account. Before running this code, create an [account](https://databricks.com/try-databricks) on Databricks. Only a community account is necessary. 
 
 ### Run
-To run the code on the bitcoinotc.csv edge file, 
+To run the code on the bitcoinotc.csv edge file: 
 1. Import the bitcoinotc.csv data into your data space on Databricks.
 2. Import the BitcoinOTC.dbc notebook to your workspace on Databricks. 
 3. Create a cluster.
 4. Attach the cluster to the imported notebook.
-5. Run the code cells.
+5. Run all code cells.
+6. Download the dataframe containing the most important nodes directly as a .csv file using the download button in the last cell. 
