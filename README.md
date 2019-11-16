@@ -4,7 +4,7 @@
 This scala code was completed as part of an assignment for my Data and Visual Analytics course at The Georgia Insitute of Technology. 
 
 ### Introduction
-The [Bitcoin OTC]("https://snap.stanford.edu/data/soc-sign-bitcoin-otc.html" target="_blank") Trust Weighted Signed Network maintains a record of users' reputation to prevent transactions with fraudulent and risky users. This graph is a who-trusts-whom network of people who trade using the platform, and is comprised of almost 6,000 nodes and over 35,000 edges. I analyzed this Bitcoin OTC network using [DataFrame API](https://spark.apache.org/docs/2.3.1/api/scala/index.html#org.apache.spark.sql.Dataset) in Spark and Scala on the Databricks platform.
+The Bitcoin OTC Trust Weighted Signed [Network]("https://snap.stanford.edu/data/soc-sign-bitcoin-otc.html" target="_blank") maintains a record of users' reputation to prevent transactions with fraudulent and risky users. This graph is a who-trusts-whom network of people who trade using the platform, and is comprised of almost 6,000 nodes and over 35,000 edges. I analyzed this Bitcoin OTC network using [DataFrame API](https://spark.apache.org/docs/2.3.1/api/scala/index.html#org.apache.spark.sql.Dataset) in Spark and Scala on the Databricks platform.
 
 Objectives:
 1. Eliminate any duplicate rows.
