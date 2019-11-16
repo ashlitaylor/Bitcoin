@@ -11,6 +11,7 @@ Objectives:
 2. Filter the graph such that only nodes containing an edge weight >= 5 are preserved.  
 3. Analyze the graph to find the nodes with the highest weighted-in-degree, weighted-out-degree, and weighted-total-degree using DataFrame operations.
 4. Download a new DataFrame to output.csv containing my analysis (schema provided below).
+
 |v: vertex id |d : weighted-degree value |c: category of weighted-degree |
 |:----------|:-------------|:-------------|
 | | |i: weighted-in-degree|
